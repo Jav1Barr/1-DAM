@@ -17,7 +17,7 @@ public class Ejercicio1 {
 		Al = sc.nextDouble();
 		Double A = Ba * Al;
 		Double P = 2*(Ba+Al);
-		System.out.println("El Área es "+A+ "y el Perimetro es "+P);
+		System.out.println("El Área es "+A+ " y el Perimetro es "+P);
 		
 		sc.close();
 	}
