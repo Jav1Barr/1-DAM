@@ -9,10 +9,14 @@ public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Integer num;
-		System.out.println("dime un númnero entero");
-		sc.nextInt();
-		
+		Integer num, veces = 0;
+		System.out.println("dime un número entero");
+		num = sc.nextInt();
+		while (num % 7 != 0) {
+			num++;
+			veces++;
+		}
+		System.out.println(veces);
 		sc.close();
 	}
 
