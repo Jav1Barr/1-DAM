@@ -16,6 +16,7 @@ public class Ejercicio4 {
 		
 		y = a*(x*x) +b*x+c;
 		System.out.println("El resultado es "+y);
+		sc.close();
 	}
 
 }
