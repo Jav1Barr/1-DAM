@@ -4,7 +4,7 @@
 Área: base × altura
 Perímetro: 2 × (base + altura)
  */
-package ejercicio1;
+package ejercicio01;
 import java.util.Scanner;
 public class Ejercicio1 {
 

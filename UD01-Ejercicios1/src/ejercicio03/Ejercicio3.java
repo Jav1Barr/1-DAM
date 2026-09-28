@@ -1,4 +1,4 @@
-package ejercicio3;
+package ejercicio03;
 import java.util.Scanner;
 public class Ejercicio3 {
 	public static void main(String[] args) {

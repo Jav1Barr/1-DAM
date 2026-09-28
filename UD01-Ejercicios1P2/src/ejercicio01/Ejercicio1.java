@@ -1,4 +1,4 @@
-package ejercicio1;
+package ejercicio01;
 import java.util.Scanner;
 public class Ejercicio1 {
 	//Realizar un programa que pida como entrada un número con decimales y lo muestre redondeado al entero más próximo.
