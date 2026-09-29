@@ -1,7 +1,7 @@
 //Modifica el ejercicio anterior para que, indicando dos números, por ejemplo,
 //num1 y num2, diga qué cantidad hay que sumarle a num1 para que sea múltiplo de num2.
 
-package ejercicio3;
+package ejercicio03;
 import java.util.Scanner;
 public class Ejercicio3 {
 

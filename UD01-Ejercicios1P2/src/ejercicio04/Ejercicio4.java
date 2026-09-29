@@ -1,7 +1,7 @@
 //Dado el siguiente polinomio de segundo grado:
 //y=ax2+bx+c
 //Crea un programa que pida los coeficientes a, b y c, así como el valor de x, y calcula el valor correspondiente de y.
-package ejercicio4;
+package ejercicio04;
 import java.util.Scanner;
 public class Ejercicio4 {
 
