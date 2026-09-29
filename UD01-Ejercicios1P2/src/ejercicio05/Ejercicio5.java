@@ -6,7 +6,16 @@ import java.util.Scanner;
 public class Ejercicio5 {
 
 	public static void main(String[] args) {
-
+		Scanner sc = new Scanner(System.in);
+		Integer hour, minutes, seconds, inputUser;
+		System.out.println("Dime una cantidad de segundos");
+		inputUser = sc.nextInt();
+		hour = inputUser / 3600;
+		minutes = (inputUser % 3600) / 60;
+		seconds = (inputUser % 3600) % 60;
+		System.out.println("Son "+hour+" horas "+minutes+" minutos "+seconds+" Segudos");
+		
+		sc.close();
 	}
 
 }
