@@ -1,5 +1,5 @@
 //Escribir una aplicación para aprender a contar, 
-//que pedirá un número n y mostrará todos los números del 1 al n.
+//que pedirá un número n y mostrará todos los números del 1 al n
 package ejercicio01;
 import java.util.Scanner;
 public class Ejercicio01 {

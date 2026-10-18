@@ -1,5 +1,5 @@
 //Realiza un programa que cuente los múltiplos de 3 desde el 1 hasta un 
-//número que introducimos por teclado.
+//número que introducimos por teclado
 package ejercicio02;
 
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-//3. Pedir diez números por teclado y mostrar la media.
+//3. Pedir diez números por teclado y mostrar la media
 package ejercicio03;
 import java.util.Scanner;
 import java.math.*;

@@ -1,4 +1,4 @@
-//4. Diseñar un programa que muestre la suma de los 10 primeros números impares.
+//4. Diseñar un programa que muestre la suma de los 10 primeros números impares
 package ejercicio04;
 
 public class Ejercicio04 {
