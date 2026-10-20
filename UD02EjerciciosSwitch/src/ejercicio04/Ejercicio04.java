@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Ejercicio04 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		// switch
+		// switch 21
 		
 		sc.close();
 	}
