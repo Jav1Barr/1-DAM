@@ -7,7 +7,9 @@
 //*******
 
 package ex02;
+
 import java.util.Scanner;
+
 public class Ex02 {
 
 	public static void main(String[] args) {
@@ -16,17 +18,17 @@ public class Ex02 {
 		Integer filasIn = sc.nextInt();
 		Integer columnasIn = sc.nextInt();
 		for (int f = 0; f < filasIn; f++) {
-			for ( int c = 0; c < columnasIn; c++) {
-				if(f == filasIn - 1 || f == 0 || c == 0 || c == columnasIn -1) {
+			for (int c = 0; c < columnasIn; c++) {
+				if (f == filasIn - 1 || f == 0 || c == 0 || c == columnasIn - 1) {
 					System.out.print("*");
 				} else {
 					System.out.print(" ");
 				}
 			}
-				System.out.println("");
-			
+			System.out.println("");
+
 		}
-		
+
 		sc.close();
 
 	}

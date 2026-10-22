@@ -8,7 +8,9 @@
 //*
 
 package ex04;
+
 import java.util.Scanner;
+
 public class Ex04 {
 
 	public static void main(String[] args) {
@@ -17,17 +19,16 @@ public class Ex04 {
 		Integer n = sc.nextInt();
 		for (int f = 0; f < n; f++) {
 			for (int c = 0; c < n; c++) {
-				if(f <= c) {
+				if (f <= c) {
 					System.out.print("*");
-				}
-				else {
+				} else {
 					System.out.print("");
 				}
-				
+
 			}
 			System.out.println("");
 		}
-		
+
 		sc.close();
 
 	}

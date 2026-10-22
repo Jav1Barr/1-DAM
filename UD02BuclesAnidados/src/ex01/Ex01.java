@@ -7,7 +7,9 @@
 //*******
 
 package ex01;
+
 import java.util.Scanner;
+
 public class Ex01 {
 
 	public static void main(String[] args) {
@@ -20,8 +22,8 @@ public class Ex01 {
 				System.out.print("*");
 			}
 			System.out.println("");
-		} 
-		
+		}
+
 		sc.close();
 
 	}
