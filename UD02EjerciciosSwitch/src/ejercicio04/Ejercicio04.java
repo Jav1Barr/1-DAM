@@ -9,19 +9,60 @@ import java.util.Scanner;
 public class Ejercicio04 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Dime el resultado de la primera tirada");
+		Integer numA = 0, numB = 0;
+		System.out.println("Dime el numero del dado en texto");
 		String inputA = sc.next();
-		System.out.println("Dime el resultado de la segunda tirada");
+		System.out.println("Dime el numero del dado en texto");
 		String inputB = sc.next();
 		switch (inputA) {
-		case "UNO":
-			Integer numA = 1;
-			System.out.println(numA);
+		case "uno":
+			 numA = 1;
 			break;
-
+		case "dos":
+			 numA = 2;
+			break;
+		case "tres":
+			 numA = 3;
+			break;
+		case "cuatro":
+			 numA = 4;
+			break;
+		case "cinco":
+			 numA = 5;
+			break;
+		case "seis":
+			 numA = 6;
+			break;
 		default:
+			System.out.println("No valido");
 			break;
 		}
+		
+		switch (inputB) {
+		case "uno":
+			 numB = 1;
+			break;
+		case "dos":
+			 numB = 2;
+			break;
+		case "tres":
+			 numB = 3;
+			break;
+		case "cuatro":
+			 numB = 4;
+			break;
+		case "cinco":
+			 numB = 5;
+			break;
+		case "seis":
+			 numB = 6;
+			break;
+		default:
+			System.out.println("No valido");
+			break;
+		}
+		Integer sumaTotal = numA + numB;
+		System.out.println(sumaTotal);
 		sc.close();
 	}
 }
