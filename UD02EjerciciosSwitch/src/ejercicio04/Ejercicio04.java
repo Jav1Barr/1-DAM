@@ -3,16 +3,25 @@
 //Después el algoritmo volverá a preguntar al usuario cuánto ha sacado en la segunda tirada y el usuario también dará 
 //esa información en formato cadena.
 //Por último, el algoritmo mostrará por pantalla la suma de las dos tiradas en formato numérico.
-
 package ejercicio04;
-
 import java.util.Scanner;
 
 public class Ejercicio04 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		// switch 21
-		
+		System.out.println("Dime el resultado de la primera tirada");
+		String inputA = sc.next();
+		System.out.println("Dime el resultado de la segunda tirada");
+		String inputB = sc.next();
+		switch (inputA) {
+		case "UNO":
+			Integer numA = 1;
+			System.out.println(numA);
+			break;
+
+		default:
+			break;
+		}
 		sc.close();
 	}
 }
