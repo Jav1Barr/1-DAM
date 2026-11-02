@@ -93,13 +93,13 @@ public class Ejercicios {
 		}
 		return res;
 	}
-	public static Integer contarPicos(List<Integer> alturas, Integer diferenciaMinima) {
-		Integer totalPicos = 0;
-		for () {
+	// public static Integer contarPicos(List<Integer> alturas, Integer diferenciaMinima) {
+	// 	Integer totalPicos = 0;
+	// 	for () {
 			
-		}
-		return totalPicos;
-	}
+	// 	}
+	// 	return totalPicos;
+	// } 
 }
 
  

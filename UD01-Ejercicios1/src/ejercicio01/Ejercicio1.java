@@ -1,7 +1,7 @@
 package ejercicio01;
 import  java.util.Scanner;
 public class Ejercicio1 {
-//holaa
+//Esto es una prueba de commit
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); //abrimos el escaner
 		Long numero; //definimos la variable numero
