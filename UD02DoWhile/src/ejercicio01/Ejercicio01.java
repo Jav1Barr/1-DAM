@@ -8,7 +8,7 @@ public class Ejercicio01 {
 		do {
 		cuenta ++;
 		System.out.println(cuenta);
-		} while (cuenta <20);
+		} while (cuenta < 20);
 	}
 
 }
